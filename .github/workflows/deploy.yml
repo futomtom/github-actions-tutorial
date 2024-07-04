@@ -4,6 +4,9 @@ on:
     branches:
       - main
   workflow_dispatch: # 允許手動觸發工作流程
+  pull_request:
+    branches: 
+      - main
 
 jobs:
   build:
